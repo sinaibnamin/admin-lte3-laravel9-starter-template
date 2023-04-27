@@ -15,7 +15,11 @@ use App\Http\Controllers\BlogController;
 */
 
 Route::get('/', function () {
-    return view('pages.dashboard');
+    return "hello";
 });
 
-Route::resource('/blog', BlogController::class);
+Route::get('/admin', function () {
+    return view('admin.pages.dashboard');
+});
+
+Route::resource('/admin/blog', BlogController::class);

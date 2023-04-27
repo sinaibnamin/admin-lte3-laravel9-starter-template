@@ -1,4 +1,4 @@
-@extends('master')
+@extends('admin.master')
 @section('content')
 <div class="content-header">
     <div class="container-fluid">
@@ -16,14 +16,12 @@
     </div>
   </div>   
   <section class="content">
-    <div class="container-fluid">          
-     
+    <div class="container-fluid">   
       <div class="row">
         <div class="col-12">
           hello
         </div>
       </div>
-      
     </div>
   </section> 
 @endsection
